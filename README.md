@@ -11,3 +11,6 @@ This project is not for production, just for training and C.V purposes
 3- **Create** : use mysql for creating a database named **tech_store** (from .env file). <br>
 4- **Run** : `php artisan migrate:fresh --seed` <br>
 5- **Run** : `php artisan serve` <br>
+** **Working On** : PHP "^7.3|^8.1".
+** **Laravel Version 8.83.27.**
+
