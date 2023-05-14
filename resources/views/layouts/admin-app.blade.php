@@ -11,7 +11,7 @@
     <title>Salah Focus Dashboard</title>
 
     <!-- ================= Favicon ================== -->
-    <link rel="icon" type="image/x-icon" href="{{ asset('images/dashboard-logo.png') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('images/dashboard-logo.png') }}?">
     {{-- <!-- Standard -->
     <link rel="shortcut icon" href="http://placehold.it/64.png/000/fff">
     <!-- Retina iPad Touch Icon-->
