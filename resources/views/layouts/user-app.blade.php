@@ -15,7 +15,7 @@
     <link href={{ asset('css/bootstrap.min.css') }} rel="stylesheet">
     <link href={{ asset('css/bootstrap.4.3.1.min.css') }} rel="stylesheet">
 
-    <link rel="icon" type="image/x-icon" href="{{ asset('images/dashboard-logo.png') }}?">
+    <link rel="icon" type="image/x-icon" href="{{ asset('images/order-avatar.png') }}?">
 
     <!-- Style CSS -->
     <link href={{ asset('css/style.css') }} rel="stylesheet">
