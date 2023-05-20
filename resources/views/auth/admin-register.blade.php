@@ -139,7 +139,9 @@
                     check = false;
                 }
             }
-            console.log(check);
+            if (check) {
+                $('#registerForm').find("button[type=submit]").attr("disabled", true);
+            }
             return check;
         });
 

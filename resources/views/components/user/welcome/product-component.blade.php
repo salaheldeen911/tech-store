@@ -1,7 +1,7 @@
     <div class="product-block component" data-ribbon="{{ $product->discount_percent }}%">
         <a href="{{ route('show.product', $product->id) }}">
             <div class="product-img">
-                <img src="{{ $product->main_image }}" alt="">
+                <img src="{{ asset($product->main_image) }}" alt="">
                 <div class="ribbon-wrapper">
                     <div class="ribbon">{{ $product->used ? 'Used' : 'New' }}</div>
                 </div>

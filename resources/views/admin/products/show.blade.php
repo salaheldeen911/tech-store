@@ -160,7 +160,7 @@
                             <h4>Description</h4>
                             <p
                                 style="font-size: 18px;line-height: 26px;font-weight: 400;color: #36344D;letter-spacing: .3px;">
-                                {{ $product->details->description }}
+                                {!! nl2br($product->details->description) !!}
                             </p>
                         </div>
                         <div class="container ml-5 mr-5">

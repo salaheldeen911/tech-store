@@ -42,7 +42,8 @@
                     @if ('processor.status') autofocus @endif>
                 <div class="addition_actions">
                     <i wire:click="cancele()" class="cancele ti-close" style="color:red"></i>
-                    <i wire:click="add('processor')" class="add ti-check" style="color:green"></i>
+                    <i wire:click="add('processor')" wire:loading.attr="disabled" class="add ti-check"
+                        style="color:green"></i>
                 </div>
                 @error('processor.name')
                     <span
@@ -60,7 +61,8 @@
                     @if ('operatingSystem.status') autofocus @endif>
                 <div class="addition_actions">
                     <i wire:click="cancele()" class="cancele ti-close" style="color:red"></i>
-                    <i wire:click="add('operatingSystem')" class="add ti-check" style="color:green"></i>
+                    <i wire:click="add('operatingSystem')" wire:loading.attr="disabled" class="add ti-check"
+                        style="color:green"></i>
                 </div>
                 @error('operatingSystem.name')
                     <span
@@ -78,7 +80,8 @@
                     @if ('refreshRate.status') autofocus @endif>
                 <div class="addition_actions">
                     <i wire:click="cancele()" class="cancele ti-close" style="color:red"></i>
-                    <i wire:click="add('refreshRate')" class="add ti-check" style="color:green"></i>
+                    <i wire:click="add('refreshRate')" wire:loading.attr="disabled" class="add ti-check"
+                        style="color:green"></i>
                 </div>
                 @error('refreshRate.name')
                     <span
@@ -94,7 +97,8 @@
                     @if ('screenType.status') autofocus @endif>
                 <div class="addition_actions">
                     <i wire:click="cancele()" class="cancele ti-close" style="color:red"></i>
-                    <i wire:click="add('screenType')" class="add ti-check" style="color:green"></i>
+                    <i wire:click="add('screenType')" wire:loading.attr="disabled" class="add ti-check"
+                        style="color:green"></i>
                 </div>
                 @error('screenType.name')
                     <span
@@ -112,7 +116,8 @@
                     @if ('color.status') autofocus @endif>
                 <div class="addition_actions">
                     <i wire:click="cancele()" class="cancele ti-close" style="color:red"></i>
-                    <i wire:click="add('color')" class="add ti-check" style="color:green"></i>
+                    <i wire:click="add('color')" wire:loading.attr="disabled" class="add ti-check"
+                        style="color:green"></i>
                 </div>
                 @error('color.name')
                     <span
@@ -130,7 +135,8 @@
                     @if ('brand.status') autofocus @endif>
                 <div class="addition_actions">
                     <i wire:click="cancele()" class="cancele ti-close" style="color:red"></i>
-                    <i wire:click="add('brand')" class="add ti-check" style="color:green"></i>
+                    <i wire:click="add('brand')" wire:loading.attr="disabled" class="add ti-check"
+                        style="color:green"></i>
                 </div>
                 @error('brand.name')
                     <span
@@ -148,7 +154,8 @@
                     @if ('resolution.status') autofocus @endif>
                 <div class="addition_actions">
                     <i wire:click="cancele()" class="cancele ti-close" style="color:red"></i>
-                    <i wire:click="add('resolution')" class="add ti-check" style="color:green"></i>
+                    <i wire:click="add('resolution')" wire:loading.attr="disabled" class="add ti-check"
+                        style="color:green"></i>
                 </div>
                 @error('resolution.name')
                     <span
@@ -166,7 +173,8 @@
                     @if ('network.status') autofocus @endif>
                 <div class="addition_actions">
                     <i wire:click="cancele()" class="cancele ti-close" style="color:red"></i>
-                    <i wire:click="add('network')" class="add ti-check" style="color:green"></i>
+                    <i wire:click="add('network')" wire:loading.attr="disabled" class="add ti-check"
+                        style="color:green"></i>
                 </div>
                 @error('network.name')
                     <span

@@ -1,10 +1,9 @@
 @extends('layouts.user-app')
 
- @push('styles')
-        <link rel="stylesheet" href={{ asset('/css/spryValidator-V1.css') }}>
-    @endpush
+@push('styles')
+    <link rel="stylesheet" href={{ asset('/css/spryValidator-V1.css') }}>
+@endpush
 @section('content')
-   
     <!-- sign-up form -->
     <div class="content">
         <div class="container">
@@ -165,6 +164,19 @@
                 errorMessages: {
                     startAlphaChars: "Your name must start with 2 letters at least",
                     minChars: "The password must be at least 8 characters."
+                },
+                onSuccess: function(e) {
+                    $("#registerForm").find("input[type=submit]").attr("disabled", true);
+                    console.log('D:');
+                }
+            })
+
+            $(".eye-icon").on('click', function() {
+                var input = $(this).parent().find('input');
+                if (input.attr('type') === 'password') {
+                    input.attr('type', 'text');
+                } else {
+                    input.attr('type', 'password');
                 }
             })
         </script>

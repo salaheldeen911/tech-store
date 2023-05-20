@@ -326,7 +326,7 @@
                             </div>
                             <hr>
                             <h3>Description</h3>
-                            <p>{{ $product->details->description }}</p>
+                            <p>{!! nl2br($product->details->description) !!}</p>
                         </div>
                     </div>
                 </div>

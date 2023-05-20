@@ -192,6 +192,10 @@
                 password: {
                     isRequired: true,
                 },
+                onSuccess: function(e) {
+                    $("#loginForm").find("button[type=submit]").attr("disabled", true);
+                    console.log('D:');
+                }
             });
 
             // console.log($(".eye-icon"));
